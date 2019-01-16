@@ -24,9 +24,9 @@ def main():
             anchor = item.find("a")
             #print(anchor["href"])
             response = requests.get(anchor["href"])
-            soup = BeautifulSoup(response.text, 'html.parser')
-            title = soup.find("cite").decode_contents()
-            view_class = soup.find("div", {"class": "views"})
+            soup1 = BeautifulSoup(response.text, 'html.parser')
+            title = soup1.find("cite").decode_contents()
+            view_class = soup1.find("div", {"class": "views"})
             anchor = view_class.find_all("a")[1]
             response = requests.get("https:"+anchor["href"])
             with open("Jefferson Papers/"+title+".xml", 'wb') as file:
@@ -36,7 +36,7 @@ def main():
             response = requests.get(curr_url)
         response = requests.get(curr_url)
         page = page + 1
-        soup = BeautifulSoup(response.text, 'html.parser')
+        #soup = BeautifulSoup(response.text, 'html.parser')
         new_page = soup.find("a", {"aria-label": "Page " + str(page)})
         if new_page == None:
             break
