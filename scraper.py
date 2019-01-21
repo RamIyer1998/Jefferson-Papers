@@ -11,7 +11,7 @@ def main():
     items = soup.find_all("li", {"class": "item"})
     curr_url = response.url
     try:
-        os.mkdir("Jefferson Papers")
+        os.mkdir("Jefferson_Papers")
         print("Directory 'Jefferson Papers' Created")
     except FileExistsError:
         print("Directory already made")
