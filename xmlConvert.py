@@ -3,6 +3,7 @@ import os
 from xml.etree import cElementTree as ET
 
 def main():
+    count = 1
     if len(sys.argv) <= 1:
         print("You gotta include a directory bud!")
         sys.exit()
@@ -13,18 +14,45 @@ def main():
     except:
         print("This already exists!")
     for file in files:
+        counts = 0
         print(file)
-        #txtfile = open(sys.argv[1]+"/"+file[0:len(file)-3]+".txt", "w")
+        if file == ".DS_Store":
+            continue
+        if file == "xmlFiles":
+            continue
+        if file[-4:] == ".txt":
+            continue
+        txtfile = open(sys.argv[1]+"/"+file[0:len(file)-3]+".txt", "w")
         contents = ""
-        tree = ET.parse(sys.argv[1]+"/"+file)
+        tree = ET.parse(sys.argv[1]+"/"+file, ET.XMLParser(encoding='utf-8'))
         root = tree.getroot()
-        body = root.find("text").find("body").find("div").findall("p")
+
+        body = root.find("text").find("body").find("div")
+        
+        counts = 0
         for child in body:
-            contents += child.text
+            if child.tag == "note":
+                counts += 1
+                continue
+            if child.tag == "pageinfo":
+                counts += 1
+                continue
+            for text in child.itertext():
+                contents += text.strip()
+                if counts < 6:
+                    contents += "\n"
+                counts += 1
+                
+        
+            
+
         print(contents)
-        sys.exit()
-        #txtfile.write(contents)
-        #os.rename(sys.argv[1]+"/"+file, sys.argv[1]+"/xmlFiles/"+file)
+        print()
+        print(contents[-1])
+        #sys.exit()
+        count += 1
+        txtfile.write(contents)
+        os.rename(sys.argv[1]+"/"+file, sys.argv[1]+"/xmlFiles/"+file)
 
 
         
