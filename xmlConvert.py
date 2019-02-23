@@ -15,48 +15,74 @@ def main():
         print("This already exists!")
     for file in files:
         counts = 0
-        print(file)
+        #print(file)
         if file == ".DS_Store":
             continue
         if file == "xmlFiles":
             continue
         if file[-4:] == ".txt":
             continue
-        txtfile = open(sys.argv[1]+"/"+file[0:len(file)-3]+".txt", "w")
+        txtfile = open(sys.argv[1]+"/"+file[0:len(file)-4].lower()+".txt", "w")
         contents = ""
         tree = ET.parse(sys.argv[1]+"/"+file, ET.XMLParser(encoding='utf-8'))
         root = tree.getroot()
 
+        for element in root.iter():
+            for child in list(element):
+                if child.tag == 'note':
+                    if child.tail:
+                        tail = child.tail.strip()
+                        if element.text:
+                            element.text = element.text.strip() +" "+tail
+                        else:
+                            element.text = tail
+                    element.remove(child)
+                if child.tag == 'pageinfo':
+                    if child.tail:
+                        tail = child.tail.strip()
+                        if element.text:
+                            element.text = element.text.strip() +" "+tail
+                        else:
+                            element.text = tail
+                    element.remove(child)
+                if child.tag == 'anchor':
+                    if child.tail:
+                        tail = child.tail.strip()
+                        if element.text:
+                            element.text = element.text.strip() +" "+tail
+                        else:
+                            element.text = tail
+                    element.remove(child)
+
         body = root.find("text").find("body").find("div")
+
         
         counts = 0
-        for child in body:
-            if child.tag == "note":
-                counts += 1
-                continue
-            if child.tag == "pageinfo":
-                counts += 1
-                continue
-            for text in child.itertext():
-                contents += text.strip()
-                if counts < 6:
-                    contents += "\n"
-                counts += 1
-                
-        
+        for child in body.iter():
             
-
+            if child.text:
+                if child.tail:
+                    child.text += " " + child.tail.strip()
+                contents += " " + child.text + "\n"
+            
+            elif child.tail:
+                contents += " " + child.tail.strip()
+                
+            if child.tag == "p":
+                contents += "\n"
+                counts += 1
+            
         print(contents)
         print()
-        print(contents[-1])
-        #sys.exit()
+        #print(contents[-1])
         count += 1
         txtfile.write(contents)
         os.rename(sys.argv[1]+"/"+file, sys.argv[1]+"/xmlFiles/"+file)
 
 
         
-        #print(file[0:len(file)-3] + ".txt successfully created!")
+        print(file[0:len(file)-4] + ".txt successfully created!")
+    
 
 #def dir():
 
