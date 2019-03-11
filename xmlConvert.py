@@ -14,6 +14,11 @@ def main():
     except:
         print("This already exists!")
     for file in files:
+        
+        if file == "Thomas Jefferson, July 27, 1821, Autobiography Draft Fragment, January 6 through July 27.xml":
+            os.rename(sys.argv[1]+"/"+file, sys.argv[1]+"/xmlFiles/"+file)
+            continue
+
         counts = 0
         #print(file)
         if file == ".DS_Store":
@@ -72,8 +77,8 @@ def main():
                 contents += "\n"
                 counts += 1
             
-        print(contents)
-        print()
+        #print(contents)
+        #print()
         #print(contents[-1])
         count += 1
         txtfile.write(contents)
@@ -81,7 +86,7 @@ def main():
 
 
         
-        print(file[0:len(file)-4] + ".txt successfully created!")
+        #print(file[0:len(file)-4] + ".txt successfully created!")
     
 
 #def dir():

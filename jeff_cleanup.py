@@ -25,7 +25,7 @@ def main():
         if file == "other" or file == "to" or file == "from":
             continue
         x = file.split("--")
-        print(x[len(x)-1].replace("_", " "))
+        #print(x[len(x)-1].replace("_", " "))
         
         if x[len(x)-1][0:2] == "TO":
             os.rename("jeff/"+file, "jeff/to/"+x[len(x)-1].replace("_"," ").lower())
