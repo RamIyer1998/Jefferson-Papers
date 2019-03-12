@@ -1,22 +1,17 @@
-to doctor benjamin rush.txt
-to john adams, to john adams.txt
-to john adams.txt
-to william carmichael.txt
-v1.0.memoir.txt
-featured to john wayles eppes, april 1, 1816.txt
-v1.95.letter xcv.--to peter carr--advice to a young man, aug. 19, 1785.txt
-v1.107.letter cvii.--lister asquith, september 14, 1785.txt
-v1.118.letter cxviii.--james madison, october 2, 1785.txt
-v1.questions for economie politique et diplomatique.txt
-v2.29.letter xxx.--m. le roy de l'academie des sciences, november 13, 1786.txt
-v2.memoranda taken on a journey from paris in 1787.txt
-v3.41.letter xli.--circular to the consuls, august 26, 1790.txt
-v3.110.letter cix.--circular to the american consuls, may 31, 1792.txt
-v3.131.letter cxxx.--circular to the ministers, february 13, 1793.txt
-v3.144.letter cxliii.--circular to morris, pinckney, and short, april 26,1793.txt
-v3.156.letters.--re the lost million, june 10, 1793.txt
-v3.166.letter clxiv.--circular to the merchants of the u.s., august 23, 1793.txt
-v3.205.letter cciii.--to james madison, january 1, 1797.txt
-v4.41.letter xli.--m. le comte diodati, march 29, 1807.txt
-v4.160.letter clx.--to --------- nicholas, december 11,1821.txt
-v4.194.letter conversations with the president.txt
+R. to the treasury department, june 10, 1793.txt
+R. to the ministers, february 13, 1793.txt
+R. to the merchants of the u.s., august 23, 1793.txt
+R. to the american consuls, may 31, 1792.txt
+R. to peter carr, aug. 19, 1785.txt
+R. to morris, pinckney, and short, april 26,1793.txt
+R. to m. le roy de l'academie des sciences, november 13, 1786.txt
+R. to m. le comte diodati, march 29, 1807.txt
+R. to lister asquith, september 14, 1785.txt
+R. to john wayles eppes, april 1, 1816.txt
+R. to james madison, october 2, 1785.txt
+R. to james madison, january 1, 1797.txt
+R. to economie politique et diplomatique.txt
+R. to --------- nicholas, december 11,1821.txt
+R. memoranda taken on a journey from paris in 1787.txt
+R. memoir.txt
+R. to the american consuls, august 26, 1790.txt

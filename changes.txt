@@ -1,0 +1,49 @@
+george washington from thomas jefferson, january 15, 1792, with copy.txt -> to george washington, january 15, 1792.txt
+john mason from thomas jefferson, august 18, 1814.txt -> to john mason, august 18, 1814.txt
+william h. cabell from thomas jefferson, june 29, 1807.txt -> to william h. cabell, june 29, 1807.txt
+v4.41.letter xli.--m. le comte diodati, march 29, 1807.txt -> to m. le comte diodati, march 29, 1807.txt
+v3.205.letter cciii.--to james madison, january 1, 1797.txt -> to james madison, january 1, 1797.txt
+v4.160.letter clx.--to --------- nicholas, december 11,1821.txt -> to --------- nicholas, december 11,1821.txt
+v3.166.letter clxiv.--circular to the merchants of the u.s., august 23, 1793.txt -> to the merchants of the u.s., august 23, 1793.txt
+v3.156.letters.--re the lost million, june 10, 1793.txt -> to the treasury department, june 10, 1793.txt
+featured to john wayles eppes, april 1, 1816.txt -> to john wayles eppes, april 1, 1816.txt
+v3.144.letter cxliii.--circular to morris, pinckney, and short, april 26,1793.txt -> to morris, pinckney, and short, april 26,1793.txt
+v3.131.letter cxxx.--circular to the ministers, february 13, 1793.txt -> to the ministers, february 13, 1793.txt
+v3.110.letter cix.--circular to the american consuls, may 31, 1792.txt -> to the american consuls, may 31, 1792.txt
+v3.41.letter xli.--circular to the consuls, august 26, 1790.txt -> to the american consuls, august 26, 1790.txt
+v2.memoranda taken on a journey from paris in 1787.txt -> memoranda taken on a journey from paris in 1787.txt
+v2.29.letter xxx.--m. le roy de l'academie des sciences, november 13, 1786.txt -> to m. le roy de l'academie des sciences, november 13, 1786.txt
+v1.questions for economie politique et diplomatique.txt -> to economie politique et diplomatique.txt
+v1.118.letter cxviii.--james madison, october 2, 1785.txt -> to james madison, october 2, 1785.txt
+v1.107.letter cvii.--lister asquith, september 14, 1785.txt -> to lister asquith, september 14, 1785.txt
+v1.95.letter xcv.--to peter carr--advice to a young man, aug. 19, 1785.txt -> to peter carr, aug. 19, 1785.txt
+v1.0.memoir.txt -> memoir.txt
+to doctor benjamin rush.txt -> to doctor benjamin rush, december 5, 1811.txt
+to john adams, to john adams.txt -> to john adams, january 11, 1817.txt
+to john adams.txt -> to john adams, june 27, 1822.txt
+to elbridge gerry.txt -> to elbridge gerry, january 26, 1799.txt
+to the count de montmorin,.txt -> to the count de montmorin, september 11, 1788.txt
+to william carmichael.txt -> to william carmichael, may 5, 1786.txt
+to john page, august 20 1785.txt -> to john page, august 20, 1785.txt
+to gouverneur morris,.txt -> to gouverneur morris, march 10, 1792.txt
+to samuel adams.txt -> to samuel adams, february 26, 1800.txt
+to a. donald, february.7, 1788.txt -> to a. donald, february 7, 1788.txt
+to james madison.txt -> to james madison, december 17, 1796.txt
+to the emperor of russia.txt -> to the emperor of russia, april 19, 1806.txt
+benjmain h. latrobe to thomas jefferson, august 12, 1817, with thomas jefferson note.txt -> benjamin h. latrobe to thomas jefferson, august 12, 1817, with thomas jefferson note.txt
+james monroe to thomas jefferson, december 1823, dated received december 11.txt -> james monroe to thomas jefferson, december 11, 1823.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
