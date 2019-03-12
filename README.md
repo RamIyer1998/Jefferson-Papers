@@ -12,3 +12,12 @@ Steps to merge the jeff and loc corpora:
 4. run `python separator.py`
 
 5. run `python merge.py`
+
+The complete corpora will be under the "Jefferson Papers" directory.
+
+
+TODO:
+
+1. Delete "jeff" directory after user runs `merge.py`
+
+2. Merge both relevant Jefferson Papers subdirectories and delete the XML files
