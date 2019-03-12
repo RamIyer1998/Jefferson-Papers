@@ -13,6 +13,8 @@ Steps to merge the jeff and loc corpora:
 
 5. run `python merge.py`
 
+6. If you want a csv file of the filename, the writer of the letter, recipient of the letter, date (YYYY-MM-DD) and the corpus, run `python csvConvert.py`
+
 The complete corpora will be under the "Jefferson Papers" directory.
 
 
