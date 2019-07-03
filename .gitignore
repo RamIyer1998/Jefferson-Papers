@@ -7,3 +7,6 @@ Jefferson Papers/
 .DS_Store
 jeff_data.csv
 HRTC Books/
+HRTC Converted Books/
+corpora/
+.vscode/
