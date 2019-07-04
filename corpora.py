@@ -29,7 +29,7 @@ def main():
     for f in files:
         shutil.copyfile("Jefferson Papers/To_Jefferson/"+f, "corpora/books+letters/"+f)
         shutil.copyfile("Jefferson Papers/To_Jefferson/"+f, "corpora/letters+pages/"+f)
-    
+
     files = os.listdir("Jefferson Papers/From_Jefferson")
     for f in files:
         shutil.copyfile("Jefferson Papers/From_Jefferson/"+f, "corpora/books+letters/"+f)
@@ -44,6 +44,6 @@ def main():
                 newName = directory+f
                 shutil.copyfile("HRTC Books/TJBooks/"+directory+"/"+f, "corpora/letters+pages/"+newName)
 
-    
+
 if __name__ == '__main__':
     main()
