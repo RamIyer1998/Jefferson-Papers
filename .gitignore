@@ -1,12 +1,21 @@
+# Virtual environment
 env/
+
+# >.DS_Store
+.DS_Store
+
+# CSV file containing data
+jeff_data.csv
+
+# Ignore all corpora folders
 Jefferson_Papers/
 To_Jefferson/
 From_Jefferson/
 jeff/
 Jefferson Papers/
-.DS_Store
-jeff_data.csv
 HRTC Books/
 HRTC Converted Books/
 corpora/
 .vscode/
+jeff.tgz
+Jefferson Papers.zip
