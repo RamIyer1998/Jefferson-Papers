@@ -15,5 +15,13 @@ python3 separator.py
 echo "NOW RUNNING MERGE.PY"
 python3 merge.py
 
-echo "NOW RUNNING csvCONVERT.py"
+echo "NOW RUNNING CSVCONVERT.py"
 python3 csvConvert.py
+
+echo "NOW RUNNING BOOKS.PY"
+python3 books.py
+
+echo "NOW RUNNING CORPORA.PY"
+python3 corpora.py
+
+echo "FINISHED"
