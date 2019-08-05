@@ -5,21 +5,11 @@ Steps to merge the jeff and loc corpora:
 
 1. run `python scraper.py` with a solid internet connection if you need to download the corpus off the library of congress
 
-2. run `python jeff_cleanup.py` provided you have the jeff corpus in your directory
+2. run `bin/jeff.sh`, and it will run the python scripts necessary to build your corpora for model training and generate a csv file containing relevant data regarding the letters
 
-3. run `python xmlConvert.py "Jefferson Papers"`
-
-4. run `python separator.py`
-
-5. run `python merge.py`
-
-6. If you want a csv file of the filename, the writer of the letter, recipient of the letter, date (YYYY-MM-DD) and the corpus, run `python csvConvert.py`
-
-The complete corpora will be under the "Jefferson Papers" directory.
+NB: This repository is meant for researchers at the University of Pittsburgh who have access to the proper corpora. The bash script will not run for those who only have the corpus generated from `scraper.py`.
 
 
 TODO:
 
-1. Delete "jeff" directory after user runs `merge.py`
-
-2. Merge both relevant Jefferson Papers subdirectories and delete the XML files
+1. In case of failure, have the scraper save the last document it downloaded (as well as other relevant information), and exit more gracefully in case of an exception.
